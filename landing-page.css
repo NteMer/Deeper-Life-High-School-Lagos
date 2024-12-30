@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Itim', 'system-ui';
+    color: #033;
+    background-color: #f4f4f4;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1rem 0;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1D2F6F;
+    border-radius: 12px;
+}
+
+input::placeholder {
+    color: #033;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 20px 10px;
+    margin-top: 20px;
+    background-color: #8e9afa;
+    border: 2px solid #1D2F6F;
+    color: white;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+button:hover {
+    background-color: #1D2F6F;
+    border: 2px solid #1d2f6f;
+    transform: trasition .3s ease;
+}
+
+button a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
